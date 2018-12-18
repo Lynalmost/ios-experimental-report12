@@ -12,6 +12,9 @@
 		3FFD804221C793390015D6FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFD804021C793390015D6FA /* Main.storyboard */; };
 		3FFD804421C7933A0015D6FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFD804321C7933A0015D6FA /* Assets.xcassets */; };
 		3FFD804721C7933A0015D6FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFD804521C7933A0015D6FA /* LaunchScreen.storyboard */; };
+		3FFD804F21C793600015D6FA /* PersonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD804E21C793600015D6FA /* PersonsTableViewController.swift */; };
+		3FFD805121C793800015D6FA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD805021C793800015D6FA /* DetailViewController.swift */; };
+		3FFD805421C793FF0015D6FA /* task12_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD805221C793FF0015D6FA /* task12_2.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3FFD804321C7933A0015D6FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FFD804621C7933A0015D6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FFD804821C7933A0015D6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFD804E21C793600015D6FA /* PersonsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsTableViewController.swift; sourceTree = "<group>"; };
+		3FFD805021C793800015D6FA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3FFD805321C793FF0015D6FA /* task12_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = task12_2.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		3FFD803B21C793390015D6FA /* 实验十二 */ = {
 			isa = PBXGroup;
 			children = (
+				3FFD805221C793FF0015D6FA /* task12_2.xcdatamodeld */,
 				3FFD803C21C793390015D6FA /* AppDelegate.swift */,
 				3FFD803E21C793390015D6FA /* ViewController.swift */,
 				3FFD804021C793390015D6FA /* Main.storyboard */,
 				3FFD804321C7933A0015D6FA /* Assets.xcassets */,
 				3FFD804521C7933A0015D6FA /* LaunchScreen.storyboard */,
 				3FFD804821C7933A0015D6FA /* Info.plist */,
+				3FFD804E21C793600015D6FA /* PersonsTableViewController.swift */,
+				3FFD805021C793800015D6FA /* DetailViewController.swift */,
 			);
 			path = "实验十二";
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			files = (
 				3FFD803F21C793390015D6FA /* ViewController.swift in Sources */,
 				3FFD803D21C793390015D6FA /* AppDelegate.swift in Sources */,
+				3FFD804F21C793600015D6FA /* PersonsTableViewController.swift in Sources */,
+				3FFD805121C793800015D6FA /* DetailViewController.swift in Sources */,
+				3FFD805421C793FF0015D6FA /* task12_2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +346,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FFD805221C793FF0015D6FA /* task12_2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FFD805321C793FF0015D6FA /* task12_2.xcdatamodel */,
+			);
+			currentVersion = 3FFD805321C793FF0015D6FA /* task12_2.xcdatamodel */;
+			name = task12_2.xcdatamodeld;
+			path = "../../task12-2/task12-2/task12_2.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3FFD803121C793390015D6FA /* Project object */;
 }
